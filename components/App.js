@@ -32,11 +32,11 @@ var contactForm = {
 
 var App = React.createClass({
     render: function () {
-        return ( 
+        return (
             <div className = {'app'}>
                 <ContactForm contact = {contactForm}/>
                 <Contacts items = {contacts}/>
-            </div >
+            </div>
         );
     }
 });
